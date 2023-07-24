@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>加入我们</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+        .kiXtYP {
+            height: calc(100vh - 7.875rem);
+        }
+
+        .jFJvEi svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .jIBIFH>div {
+            height: 100%;
+            position: unset !important;
+        }
+
+        .jIBIFH>div>img {
+            border-radius: 0.5rem;
+            width: auto !important;
+            position: relative !important;
+            height: auto !important;
+        }
+
+        .cvBCun {
+            padding: 1.25rem;
+            --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+            border-radius: 0.5rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            border-width: 2px;
+            --tw-border-opacity: 1;
+            border-color: rgba(247, 148, 30, var(--tw-border-opacity));
+        }
+
+        .kPbtCG {
+            transform: translateY(1px);
+        }
+
+        .bgpgNw {
+            display: -webkit-box;
+            overflow: hidden;
+            -webkit-line-clamp: 8;
+            -webkit-box-orient: vertical;
+        }
+
+        @media (min-width: 1024px) {
+            .cvBCun {
+                box-shadow: none;
+                --tw-shadow: none;
+                border-radius: 0px;
+                margin: 0px;
+                border: none;
+                padding: 0.5rem 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="__next">
+        <div class="flex flex-col min-h-full">
+            <div id="header" class="Header__Blurred-sc-b7lhnb-1 dVqcpB sticky top-0 z-50"></div>
+            <main class="flex flex-1 flex-col">
+                <section
+                    class="Hero__StyledHero-sc-u4j4a2-0 kiXtYP flex flex-col lg:flex-row bg-white p-10 lg:mb-20 px-10 sm:px-20 lg:px-0 lg:py-20">
+                    <div
+                        class="text-center lg:text-left lg:pl-40 w-full lg:w-1/2 flex flex-col  justify-center order-2 lg:order-1">
+                        <div style="opacity: 1; transform: none;">
+                            <h1 class="text-5xl 2xl:pr-40 font-bold text-secondary xl:text-6xl 2xl:text-7xl cursor-default mt-5 lg:mt-0 pb-10">
+                                {{i18n.joinUs?.challenges}}
+                            </h1>
+                            <p class="text-lg 2xl:pr-40 2xl:text-xl text-secondary cursor-default font-montserrat pb-10">
+                                {{i18n.joinUs?.positionsBelow}}    
+                            </p>
+                        </div>
+                        <div class="flex justify-center flex-col lg:flex-row lg:justify-start lg:space-x-2">
+                            <a class="transition transition-all cursor-pointer font-workSans border-2 rounded-lg text-white bg-primary border-primary hover:bg-white hover:border-primary hover:text-primary lg:mr-3 py-5 lg:w-52 text-center font-bold text-xl"
+                                href="Teams.html" onClick="setRouterPath('Teams')">{{i18n.common?.viewTeam}}</a>
+                            <a class="transition transition-all cursor-pointer font-workSans border-2 rounded-lg text-secondary border-secondary hover:text-white hover:border-secondary hover:bg-secondary mt-4 lg:mt-0 py-5 lg:w-52 text-center font-bold text-xl"
+                                href="GetInTouch.html" onClick="setRouterPath('GetInTouch')">{{i18n.common?.getInTouch}}</a>
+                        </div>
+                    </div>
+                    <div class="relative w-full lg:w-1/2 flex items-center justify-center order-1 lg:order-2">
+                        <div class="rounded-lg lg:absolute lg:h-full lg:w-2/5 xl:w-3/5 bg-secondary"></div>
+                        <div
+                            class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH mb-6 lg:mb-0 rounded-lg lg:absolute lg:h-auto w-full lg:w-3/5 xl:w-3/4 shadow-xl">
+                            <div
+                                style="display:block;overflow:hidden;position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;margin:0">
+                                <img alt="join-the-team" src="./images/team_339c3ad3fa.jfif" decoding="async"
+                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="lg:pl-20 xl:pl-40 cursor-default">
+                    <h2 class="uppercase pb-2 text-lg font-bold text-gray-500 text-center lg:text-left font-montserrat">{{i18n.joinUs?.process}}</h2>
+                    <h3 class="text-secondary text-5xl lg:text-7xl font-bold text-center lg:text-left">{{i18n.joinUs?.hiring}}</h3>
+                    <h4 class="pb-5 lg:pb-10 text-primary text-5xl lg:text-7xl font-bold text-center lg:text-left">{{i18n.joinUs?.process}}</h4>
+                </section>
+                <section class="w-full flex flex-col lg:flex-row justify-center lg:pt-20 pb-10 lg:pb-40 cursor-default">
+                    <div
+                        class="flex flex-col md:grid md:grid-cols-2 md:grid-rows-4 lg:grid lg:grid-cols-4 lg:grid-rows-4 px-10 sm:px-20 md:px-20 lg:px-20 xl:px-40">
+                        <div
+                            class="HowWeHire__StyledHireCard-sc-wmdbis-0 cvBCun lg:col-span-1 lg:row-span-1 lg:col-start-1 lg:row-start-1 order-1 lg:order-1">
+                            <section class="relative grid justify-items-center justify-start">
+                                <div
+                                    class="hidden absolute z-10 lg:flex justify-center w-1/2 border border-dashed border-2-2 border-primary right-0 top-12">
+                                </div>
+                                <div
+                                    class="z-20 flex justify-center text-secondary border-2 lg:border border-primary rounded-full w-16 h-16 lg:w-24 lg:h-24 bg-white absolute -top-3.25 lg:static lg:top-0">
+                                    <div class="flex flex-wrap content-center text-base lg:text-xl"><svg
+                                            aria-hidden="true" focusable="false" data-prefix="fas" data-icon="list"
+                                            class="svg-inline--fa fa-list fa-w-16 fa-2x " role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M80 368H16a16 16 0 0 0-16 16v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16v-64a16 16 0 0 0-16-16zm0-320H16A16 16 0 0 0 0 64v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16V64a16 16 0 0 0-16-16zm0 160H16a16 16 0 0 0-16 16v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16v-64a16 16 0 0 0-16-16zm416 176H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-320H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16zm0 160H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z">
+                                            </path>
+                                        </svg></div>
+                                </div>
+                                <div class="flex gap-4 py-4 items-center lg:justify-center">
+                                    <div
+                                        class="flex justify-center text-secondary rounded-full w-10 h-10 lg:w-12 lg:h-12 lg:min-w-12 lg:min-h-12 bg-primary">
+                                        <div class="flex flex-wrap content-center text-xl lg:text-2xl">
+                                            <h2 class="font-bold text-secondary">1</h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="font-bold text-2xl lg:text-3xl text-secondary">{{i18n.joinUs?.application[0]}}</h2>
+                                </div>
+                                <div style="opacity: 1; transform: none;">
+                                    <p class="p-2 text-justify text-secondary text-base lg:text-lg font-montserrat">
+                                        {{i18n.joinUs?.application[1]}}
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="hidden lg:block col-span-1 row-span-1 col-start-2 row-start-1 py-2 px-0.5">
+                            <section class="relative">
+                                <div
+                                    class="absolute top-12 flex justify-center w-full border border-dashed border-2-2 border-primary">
+                                </div>
+                                <div class="absolute top-8 w-full flex justify-center text-primary"><svg
+                                        aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right"
+                                        class="svg-inline--fa fa-arrow-right fa-w-14 fa-2x HorizontalLine__Icon-sc-16g5ezo-0 kPbtCG"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path fill="currentColor"
+                                            d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z">
+                                        </path>
+                                    </svg></div>
+                            </section>
+                        </div>
+                        <div
+                            class="HowWeHire__StyledHireCard-sc-wmdbis-0 cvBCun lg:col-span-1 lg:row-span-1 lg:col-start-3 lg:row-start-1 order-2 lg:order-2">
+                            <section class="relative grid justify-items-center justify-start">
+                                <div
+                                    class="hidden absolute z-10 lg:flex justify-center w-1/2 border border-dashed border-2-2 border-primary right-0 top-12">
+                                </div>
+                                <div
+                                    class="hidden absolute z-10 lg:flex justify-center w-1/2 border border-dashed border-2-2 border-primary left-0 top-12">
+                                </div>
+                                <div
+                                    class="z-20 flex justify-center text-secondary border-2 lg:border border-primary rounded-full w-16 h-16 lg:w-24 lg:h-24 bg-white absolute -top-3.25 lg:static lg:top-0">
+                                    <div class="flex flex-wrap content-center text-base lg:text-xl"><svg
+                                            aria-hidden="true" focusable="false" data-prefix="fas"
+                                            data-icon="user-friends"
+                                            class="svg-inline--fa fa-user-friends fa-w-20 fa-2x " role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                            <path fill="currentColor"
+                                                d="M192 256c61.9 0 112-50.1 112-112S253.9 32 192 32 80 82.1 80 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C51.6 288 0 339.6 0 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zM480 256c53 0 96-43 96-96s-43-96-96-96-96 43-96 96 43 96 96 96zm48 32h-3.8c-13.9 4.8-28.6 8-44.2 8s-30.3-3.2-44.2-8H432c-20.4 0-39.2 5.9-55.7 15.4 24.4 26.3 39.7 61.2 39.7 99.8v38.4c0 2.2-.5 4.3-.6 6.4H592c26.5 0 48-21.5 48-48 0-61.9-50.1-112-112-112z">
+                                            </path>
+                                        </svg></div>
+                                </div>
+                                <div class="flex gap-4 py-4 items-center lg:justify-center">
+                                    <div
+                                        class="flex justify-center text-secondary rounded-full w-10 h-10 lg:w-12 lg:h-12 lg:min-w-12 lg:min-h-12 bg-primary">
+                                        <div class="flex flex-wrap content-center text-xl lg:text-2xl">
+                                            <h2 class="font-bold text-secondary">2</h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="font-bold text-2xl lg:text-3xl text-secondary">{{i18n.joinUs?.firstRound[0]}}</h2>
+                                </div>
+                                <div style="opacity: 1; transform: none;">
+                                    <p class="p-2 text-justify text-secondary text-base lg:text-lg font-montserrat">
+                                        {{i18n.joinUs?.firstRound[1]}}
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="hidden lg:block relative col-span-1 row-span-1 col-start-4 row-start-1 py-2 px-0.5">
+                            <section class="relative">
+                                <div
+                                    class="absolute top-12 flex justify-center w-1/2 border border-dashed border-2-2 border-primary">
+                                </div>
+                            </section>
+                            <div
+                                class="absolute top-14 left-1/2 h-full flex justify-center border border-dashed border-2-2 border-primary">
+                            </div>
+                            <div class="w-full h-full content-center grid justify-items-center text-primary"><svg
+                                    aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down"
+                                    class="svg-inline--fa fa-arrow-down fa-w-14 fa-2x VerticalLine__Icon-sc-1exhnhl-0 bXkGXZ"
+                                    role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                    style="transform:translateX(1px)">
+                                    <path fill="currentColor"
+                                        d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z">
+                                    </path>
+                                </svg></div>
+                        </div>
+                        <div class="hidden lg:block relative col-span-1 row-span-1 col-start-1 row-start-2 py-2 px-0.5">
+                            <section class="relative">
+                                <div
+                                    class="absolute top-12 left-1/2 flex justify-center w-1/2 border border-dashed border-2-2 border-primary">
+                                </div>
+                            </section>
+                            <div
+                                class="absolute top-14 left-1/2 h-full flex justify-center border border-dashed border-2-2 border-primary">
+                            </div>
+                            <div class="w-full h-full content-center grid justify-items-center text-primary"><svg
+                                    aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down"
+                                    class="svg-inline--fa fa-arrow-down fa-w-14 fa-2x VerticalLine__Icon-sc-1exhnhl-0 bXkGXZ"
+                                    role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                    style="transform:translateX(1px)">
+                                    <path fill="currentColor"
+                                        d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z">
+                                    </path>
+                                </svg></div>
+                        </div>
+                        <div
+                            class="HowWeHire__StyledHireCard-sc-wmdbis-0 cvBCun lg:col-span-1 lg:row-span-1 lg:col-start-2 lg:row-start-2 order-4 lg:order-3">
+                            <section class="relative grid justify-items-center justify-start">
+                                <div
+                                    class="hidden absolute z-10 lg:flex justify-center w-1/2 border border-dashed border-2-2 border-primary right-0 top-12">
+                                </div>
+                                <div
+                                    class="hidden absolute z-10 lg:flex justify-center w-1/2 border border-dashed border-2-2 border-primary left-0 top-12">
+                                </div>
+                                <div
+                                    class="z-20 flex justify-center text-secondary border-2 lg:border border-primary rounded-full w-16 h-16 lg:w-24 lg:h-24 bg-white absolute -top-3.25 lg:static lg:top-0">
+                                    <div class="flex flex-wrap content-center text-base lg:text-xl"><svg
+                                            aria-hidden="true" focusable="false" data-prefix="fas" data-icon="camera"
+                                            class="svg-inline--fa fa-camera fa-w-16 fa-2x " role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M512 144v288c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48h88l12.3-32.9c7-18.7 24.9-31.1 44.9-31.1h125.5c20 0 37.9 12.4 44.9 31.1L376 96h88c26.5 0 48 21.5 48 48zM376 288c0-66.2-53.8-120-120-120s-120 53.8-120 120 53.8 120 120 120 120-53.8 120-120zm-32 0c0 48.5-39.5 88-88 88s-88-39.5-88-88 39.5-88 88-88 88 39.5 88 88z">
+                                            </path>
+                                        </svg></div>
+                                </div>
+                                <div class="flex gap-4 py-4 items-center lg:justify-center">
+                                    <div
+                                        class="flex justify-center text-secondary rounded-full w-10 h-10 lg:w-12 lg:h-12 lg:min-w-12 lg:min-h-12 bg-primary">
+                                        <div class="flex flex-wrap content-center text-xl lg:text-2xl">
+                                            <h2 class="font-bold text-secondary">4</h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="font-bold text-2xl lg:text-3xl text-secondary">{{i18n.joinUs?.techInterview[0]}}</h2>
+                                </div>
+                                <div style="opacity: 1; transform: none;">
+                                    <p class="p-2 text-justify text-secondary text-base lg:text-lg font-montserrat">
+                                        {{i18n.joinUs?.techInterview[1]}}
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="hidden lg:block col-span-1 row-span-1 col-start-3 row-start-2 py-2 px-0.5">
+                            <section class="relative">
+                                <div
+                                    class="absolute top-12 flex justify-center w-full border border-dashed border-2-2 border-primary">
+                                </div>
+                                <div class="absolute top-8 w-full flex justify-center text-primary"><svg
+                                        aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left"
+                                        class="svg-inline--fa fa-arrow-left fa-w-14 fa-2x HorizontalLine__Icon-sc-16g5ezo-0 kPbtCG"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path fill="currentColor"
+                                            d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z">
+                                        </path>
+                                    </svg></div>
+                            </section>
+                        </div>
+                        <div
+                            class="HowWeHire__StyledHireCard-sc-wmdbis-0 cvBCun lg:col-span-1 lg:row-span-1 lg:col-start-4 lg:row-start-2 order-3 lg:order-4">
+                            <section class="relative grid justify-items-center justify-start">
+                                <div
+                                    class="hidden absolute z-10 lg:flex justify-center w-1/2 border border-dashed border-2-2 border-primary left-0 top-12">
+                                </div>
+                                <div
+                                    class="z-20 flex justify-center text-secondary border-2 lg:border border-primary rounded-full w-16 h-16 lg:w-24 lg:h-24 bg-white absolute -top-3.25 lg:static lg:top-0">
+                                    <div class="flex flex-wrap content-center text-base lg:text-xl"><svg
+                                            aria-hidden="true" focusable="false" data-prefix="fas" data-icon="desktop"
+                                            class="svg-inline--fa fa-desktop fa-w-18 fa-2x " role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                            <path fill="currentColor"
+                                                d="M528 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h192l-16 48h-72c-13.3 0-24 10.7-24 24s10.7 24 24 24h272c13.3 0 24-10.7 24-24s-10.7-24-24-24h-72l-16-48h192c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h448v288z">
+                                            </path>
+                                        </svg></div>
+                                </div>
+                                <div class="flex gap-4 py-4 items-center lg:justify-center">
+                                    <div
+                                        class="flex justify-center text-secondary rounded-full w-10 h-10 lg:w-12 lg:h-12 lg:min-w-12 lg:min-h-12 bg-primary">
+                                        <div class="flex flex-wrap content-center text-xl lg:text-2xl">
+                                            <h2 class="font-bold text-secondary">3</h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="font-bold text-2xl lg:text-3xl text-secondary">{{i18n.joinUs?.task[0]}}</h2>
+                                </div>
+                                <div style="opacity: 1; transform: none;">
+                                    <p class="p-2 text-justify text-secondary text-base lg:text-lg font-montserrat">
+                                        {{i18n.joinUs?.task[1]}}
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
+                        <div
+                            class="HowWeHire__StyledHireCard-sc-wmdbis-0 cvBCun lg:col-span-1 lg:row-span-1 lg:col-start-1 lg:row-start-3 order-5 lg:order-5">
+                            <section class="relative grid justify-items-center justify-start">
+                                <div
+                                    class="hidden absolute z-10 lg:flex justify-center w-1/2 border border-dashed border-2-2 border-primary right-0 top-12">
+                                </div>
+                                <div
+                                    class="z-20 flex justify-center text-secondary border-2 lg:border border-primary rounded-full w-16 h-16 lg:w-24 lg:h-24 bg-white absolute -top-3.25 lg:static lg:top-0">
+                                    <div class="flex flex-wrap content-center text-base lg:text-xl"><svg
+                                            aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user"
+                                            class="svg-inline--fa fa-user fa-w-14 fa-2x " role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path fill="currentColor"
+                                                d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z">
+                                            </path>
+                                        </svg></div>
+                                </div>
+                                <div class="flex gap-4 py-4 items-center lg:justify-center">
+                                    <div
+                                        class="flex justify-center text-secondary rounded-full w-10 h-10 lg:w-12 lg:h-12 lg:min-w-12 lg:min-h-12 bg-primary">
+                                        <div class="flex flex-wrap content-center text-xl lg:text-2xl">
+                                            <h2 class="font-bold text-secondary">5</h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="font-bold text-2xl lg:text-3xl text-secondary">{{i18n.joinUs?.lastMeeting[0]}}</h2>
+                                </div>
+                                <div style="opacity: 1; transform: none;">
+                                    <p class="p-2 text-justify text-secondary text-base lg:text-lg font-montserrat">
+                                        {{i18n.joinUs?.lastMeeting[1]}}    
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="hidden lg:block col-span-1 row-span-1 col-start-2 row-start-3 py-2 px-0.5">
+                            <section class="relative">
+                                <div
+                                    class="absolute top-12 flex justify-center w-full border border-dashed border-2-2 border-primary">
+                                </div>
+                                <div class="absolute top-8 w-full flex justify-center text-primary"><svg
+                                        aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right"
+                                        class="svg-inline--fa fa-arrow-right fa-w-14 fa-2x HorizontalLine__Icon-sc-16g5ezo-0 kPbtCG"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path fill="currentColor"
+                                            d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z">
+                                        </path>
+                                    </svg></div>
+                            </section>
+                        </div>
+                        <div
+                            class="HowWeHire__StyledHireCard-sc-wmdbis-0 cvBCun lg:col-span-1 lg:row-span-1 lg:col-start-3 lg:row-start-3 order-6 lg:order-6">
+                            <section class="relative grid justify-items-center justify-start">
+                                <div
+                                    class="hidden absolute z-10 lg:flex justify-center w-1/2 border border-dashed border-2-2 border-primary right-0 top-12">
+                                </div>
+                                <div
+                                    class="hidden absolute z-10 lg:flex justify-center w-1/2 border border-dashed border-2-2 border-primary left-0 top-12">
+                                </div>
+                                <div
+                                    class="z-20 flex justify-center text-secondary border-2 lg:border border-primary rounded-full w-16 h-16 lg:w-24 lg:h-24 bg-white absolute -top-3.25 lg:static lg:top-0">
+                                    <div class="flex flex-wrap content-center text-base lg:text-xl"><svg
+                                            aria-hidden="true" focusable="false" data-prefix="fas" data-icon="list-alt"
+                                            class="svg-inline--fa fa-list-alt fa-w-16 fa-2x " role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M464 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zM128 120c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm288-136v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12z">
+                                            </path>
+                                        </svg></div>
+                                </div>
+                                <div class="flex gap-4 py-4 items-center lg:justify-center">
+                                    <div
+                                        class="flex justify-center text-secondary rounded-full w-10 h-10 lg:w-12 lg:h-12 lg:min-w-12 lg:min-h-12 bg-primary">
+                                        <div class="flex flex-wrap content-center text-xl lg:text-2xl">
+                                            <h2 class="font-bold text-secondary">6</h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="font-bold text-2xl lg:text-3xl text-secondary">{{i18n.joinUs?.offer[0]}}</h2>
+                                </div>
+                                <div style="opacity: 1; transform: none;">
+                                    <p class="p-2 text-justify text-secondary text-base lg:text-lg font-montserrat">{{i18n.joinUs?.offer[1]}}</p>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="hidden lg:block relative col-span-1 row-span-1 col-start-4 row-start-3 py-2 px-0.5">
+                            <section class="relative">
+                                <div
+                                    class="absolute top-12 flex justify-center w-1/2 border border-dashed border-2-2 border-primary">
+                                </div>
+                            </section>
+                            <div
+                                class="absolute top-14 left-1/2 h-full flex justify-center border border-dashed border-2-2 border-primary">
+                            </div>
+                            <div class="w-full h-full content-center grid justify-items-center text-primary"><svg
+                                    aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down"
+                                    class="svg-inline--fa fa-arrow-down fa-w-14 fa-2x VerticalLine__Icon-sc-1exhnhl-0 bXkGXZ"
+                                    role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                    style="transform:translateX(1px)">
+                                    <path fill="currentColor"
+                                        d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z">
+                                    </path>
+                                </svg></div>
+                        </div>
+                        <div
+                            class="lg:col-span-3 lg:row-span-1 lg:col-end-4 lg:row-start-4 grid justify-items-center order-8 lg:order-8">
+                            <div class="z-10 relative w-5/6 lg:w-1/2 h-96 flex items-center justify-center">
+                                <div
+                                    class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH z-20 rounded-lg absolute h-full lg:w-3/5 shadow-xl">
+                                    <div
+                                        style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                        <img alt="contact" src="./images/recruitment_3d518b05ae.jpg" decoding="async"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="z-10 rounded-lg absolute h-4/5 w-full bg-secondary"></div>
+                            </div>
+                            <div style="opacity: 1; transform: none;">
+                                <h2 class="py-4 font-bold text-xl lg:text-2xl text-secondary">{{i18n.joinUs?.question[0]}}</h2>
+                            </div>
+                            <div style="opacity: 1; transform: none;">
+                                <p class="text-secondary text-lg lg:text-xl font-semibold pb-2 w-80 text-center font-montserrat">{{i18n.joinUs?.question[1]}}</p>
+                            </div>
+                            <div style="opacity: 1; transform: none;">
+                                <a class="mb-10 text-lg lg:text-xl font-semibold text-primary hover:text-primary-300 text-center underline font-montserrat" href="mailto:recruitment@theitsolutions.io" style="unicode-bidi: bidi-override; direction: ltr;">recruitment@theitsolutions.io</a>
+                            </div>
+                        </div>
+                        <div
+                            class="HowWeHire__StyledHireCard-sc-wmdbis-0 cvBCun lg:col-span-1 lg:row-span-1 lg:col-start-4 lg:row-start-4 order-7 lg:order-7">
+                            <section class="relative grid justify-items-center justify-start">
+                                <div
+                                    class="z-20 flex justify-center text-secondary border-2 lg:border border-primary rounded-full w-16 h-16 lg:w-24 lg:h-24 bg-white absolute -top-3.25 lg:static lg:top-0">
+                                    <div class="flex flex-wrap content-center text-base lg:text-xl"><svg
+                                            aria-hidden="true" focusable="false" data-prefix="fas"
+                                            data-icon="wine-glass-alt"
+                                            class="svg-inline--fa fa-wine-glass-alt fa-w-9 fa-2x " role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 512">
+                                            <path fill="currentColor"
+                                                d="M216 464h-40V346.81c68.47-15.89 118.05-79.91 111.4-154.16l-15.95-178.1C270.71 6.31 263.9 0 255.74 0H32.26c-8.15 0-14.97 6.31-15.7 14.55L.6 192.66C-6.05 266.91 43.53 330.93 112 346.82V464H72c-22.09 0-40 17.91-40 40 0 4.42 3.58 8 8 8h208c4.42 0 8-3.58 8-8 0-22.09-17.91-40-40-40zM61.75 48h164.5l7.17 80H54.58l7.17-80z">
+                                            </path>
+                                        </svg></div>
+                                </div>
+                                <div class="flex gap-4 py-4 items-center lg:justify-center">
+                                    <div
+                                        class="flex justify-center text-secondary rounded-full w-10 h-10 lg:w-12 lg:h-12 lg:min-w-12 lg:min-h-12 bg-primary">
+                                        <div class="flex flex-wrap content-center text-xl lg:text-2xl">
+                                            <h2 class="font-bold text-secondary">7</h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="font-bold text-2xl lg:text-3xl text-secondary">{{i18n.joinUs?.hired[0]}}!</h2>
+                                </div>
+                                <div style="opacity: 1; transform: none;">
+                                    <p class="p-2 text-justify text-secondary text-base lg:text-lg font-montserrat">
+                                        {{i18n.joinUs?.hired[1]}}
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+                <section class="lg:pl-20 xl:pl-40 cursor-default">
+                    <h2 class="uppercase pb-2 text-lg font-bold text-gray-500 text-center lg:text-left font-montserrat">
+                        {{i18n.joinUs?.position}}
+                    </h2>
+                    <h3 class="text-secondary text-5xl lg:text-7xl font-bold text-center lg:text-left">{{i18n.common?.joinTeam}}</h3>
+                    <h4 class="pb-5 lg:pb-10 text-primary text-5xl lg:text-7xl font-bold text-center lg:text-left">
+                        {{i18n.joinUs?.openPosition}}
+                    </h4>
+                </section>
+                <section class="w-full bg-white">
+                    <div class="w-full pt-12 pb-20 lg:pb-40 flex justify-center">
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-6 w-full px-10 sm:px-20 md:px-20 lg:px-20 xl:px-40">
+                            <article class="w-full bg-white shadow-lg p-10 rounded-lg">
+                                <div class="space-y-4">
+                                    <h2 class="lg:h-20 text-3xl lg:text-4xl text-secondary font-bold cursor-default">
+                                        {{i18n.joinUs?.frontend[0]}}
+                                    </h2>
+                                    <h3 class="lg:text-lg text-secondary font-bold cursor-default">Debrecen<!-- -->,
+                                        <!-- -->Hungary
+                                    </h3>
+                                    <div style="opacity: 1; transform: none;">
+                                        <p class="JobCard__StyledDescription-sc-1nv12gw-0 bgpgNw text-lg text-secondary cursor-default font-montserrat">
+                                            {{i18n.joinUs?.frontend[1]}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="w-full bg-white shadow-lg p-10 rounded-lg">
+                                <div class="space-y-4">
+                                    <h2 class="lg:h-20 text-3xl lg:text-4xl text-secondary font-bold cursor-default">
+                                        {{i18n.joinUs?.java[0]}}
+                                    </h2>
+                                    <h3 class="lg:text-lg text-secondary font-bold cursor-default">Debrecen<!-- -->,
+                                        <!-- -->Hungary
+                                    </h3>
+                                    <div style="opacity: 1; transform: none;">
+                                        <p class="JobCard__StyledDescription-sc-1nv12gw-0 bgpgNw text-lg text-secondary cursor-default font-montserrat">
+                                            {{i18n.joinUs?.java[1]}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="w-full bg-white shadow-lg p-10 rounded-lg">
+                                <div class="space-y-4">
+                                    <h2 class="lg:h-20 text-3xl lg:text-4xl text-secondary font-bold cursor-default">
+                                        {{i18n.joinUs?.AWS[0]}}
+                                    </h2>
+                                    <h3 class="lg:text-lg text-secondary font-bold cursor-default">Debrecen<!-- -->,
+                                        <!-- -->Hungary
+                                    </h3>
+                                    <div style="opacity: 1; transform: none;">
+                                        <p class="JobCard__StyledDescription-sc-1nv12gw-0 bgpgNw text-lg text-secondary cursor-default font-montserrat">
+                                            {{i18n.joinUs?.AWS[1]}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="w-full bg-white shadow-lg p-10 rounded-lg">
+                                <div class="space-y-4">
+                                    <h2 class="lg:h-20 text-3xl lg:text-4xl text-secondary font-bold cursor-default">
+                                        {{i18n.joinUs?.QA[0]}}
+                                    </h2>
+                                    <h3 class="lg:text-lg text-secondary font-bold cursor-default">Debrecen<!-- -->,
+                                        <!-- -->Hungary
+                                    </h3>
+                                    <div style="opacity: 1; transform: none;">
+                                        <p class="JobCard__StyledDescription-sc-1nv12gw-0 bgpgNw text-lg text-secondary cursor-default font-montserrat">
+                                            {{i18n.joinUs?.QA[1]}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="w-full bg-white shadow-lg p-10 rounded-lg">
+                                <div class="space-y-4">
+                                    <h2 class="lg:h-20 text-3xl lg:text-4xl text-secondary font-bold cursor-default">
+                                        {{i18n.joinUs?.teamLead[0]}}
+                                    </h2>
+                                    <h3 class="lg:text-lg text-secondary font-bold cursor-default">Debrecen<!-- -->,
+                                        <!-- -->Hungary
+                                    </h3>
+                                    <div style="opacity: 1; transform: none;">
+                                        <p class="JobCard__StyledDescription-sc-1nv12gw-0 bgpgNw text-lg text-secondary cursor-default font-montserrat">
+                                            {{i18n.joinUs?.teamLead[1]}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+            <footer id="footer" class="flex justify-center text-white bg-secondary px-20 pt-10"></footer>
+        </div>
+    </div>
+    <script src="./js/vue.js"></script>
+    <script src="../js/jquery-3.7.0.min.js"></script>
+    <script lang="javascript">
+        const joinUs = new Vue({
+            el: '#__next',
+            data: {
+                i18n: {},
+            },
+            created() {
+                fetch(`./js/${sessionStorage.getItem('lang') == 'CN' ? 'Chinese' : 'English'}.json`).then(response => response.json()).then(json => {
+                    this.i18n = json
+                }).catch(error => console.log(error));
+            },
+        });
+        window.myFunction = function (json) {
+            joinUs.i18n = json
+        };
+        $("#header").load(`./layout/header.html`);
+        $("#footer").load(`./layout/footer.html`);
+        function setRouterPath(router) {
+            sessionStorage.setItem('lastname', router)
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

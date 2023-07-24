@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div id="__next">
+        <div class="flex flex-col min-h-full">
+            <div id="header" class="Header__Blurred-sc-b7lhnb-1 dVqcpB sticky top-0 z-50"></div>
+            <main class="flex flex-1 flex-col">
+                <section
+                    class="Hero__StyledHero-sc-u4j4a2-0 kiXtYP flex flex-col lg:flex-row bg-white p-10 lg:mb-20 px-10 sm:px-20 lg:px-0 lg:py-20">
+                    <div
+                        class="text-center lg:text-left lg:pl-40 w-full lg:w-1/2 flex flex-col  justify-center order-2 lg:order-1">
+                        <div style="opacity: 1; transform: none;">
+                            <h1 class="text-5xl 2xl:pr-40 font-bold text-secondary xl:text-6xl 2xl:text-7xl cursor-default mt-5 lg:mt-0 pb-10">{{i18n.index?.Accelerating}}</h1>
+                            <p class="text-lg 2xl:pr-40 2xl:text-xl text-secondary cursor-default font-montserrat pb-10">
+                                {{i18n.index?.technology}}
+                            </p>
+                        </div>
+                        <div class="flex justify-center flex-col lg:flex-row lg:justify-start lg:space-x-2">
+                            <a class="transition transition-all cursor-pointer font-workSans border-2 rounded-lg text-white bg-primary border-primary hover:bg-white hover:border-primary hover:text-primary lg:mr-3 py-5 lg:w-52 text-center font-bold text-xl"
+                                href="Teams.html" onClick="setRouterPath('Teams')">{{i18n.common?.viewTeam}}</a>
+                            <a class="transition transition-all cursor-pointer font-workSans border-2 rounded-lg text-secondary border-secondary hover:text-white hover:border-secondary hover:bg-secondary mt-4 lg:mt-0 py-5 lg:w-52 text-center font-bold text-xl"
+                                href="GetInTouch.html" onClick="setRouterPath('GetInTouch')">{{i18n.common?.getInTouch}}</a>
+                        </div>
+                    </div>
+                    <div class="relative w-full lg:w-1/2 flex items-center justify-center order-1 lg:order-2">
+                        <div class="rounded-lg lg:absolute lg:h-full lg:w-2/5 xl:w-3/5 bg-primary"></div>
+                        <div
+                            class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH mb-6 lg:mb-0 rounded-lg lg:absolute lg:h-auto w-full lg:w-3/5 xl:w-3/4 shadow-xl">
+                            <div style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                <img alt="home"
+                                    src="./images/team_339c3ad3fa.jfif"
+                                    decoding="async"
+                                    style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                                    sizes="100vw"
+                                    srcset="./images/team_339c3ad3fa.jfif 640w, ./images/team_339c3ad3fa.jfif 750w, ./images/team_339c3ad3fa.jfif 828w, ./images/team_339c3ad3fa.jfif 1080w, ./images/team_339c3ad3fa.jfif 1200w, ./images/team_339c3ad3fa.jfif 1920w, ./images/team_339c3ad3fa.jfif 2048w, ./images/team_339c3ad3fa.jfif 3840w">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="bg-white mb-20 cursor-default">
+                    <div class="relative z-10 flex flex-col lg:flex-row justify-between items-center px-10 pb-10 lg:px-40">
+                        <section class="cursor-default">
+                            <h2 class="uppercase pb-2 text-lg font-bold text-gray-500 text-center lg:text-left font-montserrat">{{i18n.index?.howWoek}}</h2>
+                            <h3 class="text-secondary text-5xl lg:text-7xl font-bold text-center lg:text-left">{{i18n.index?.howAssit}}</h3>
+                            <h4 class="pb-5 lg:pb-10 text-primary text-5xl lg:text-7xl font-bold text-center lg:text-left">{{i18n.index?.yourBusiness}}</h4>
+                        </section>
+                        <div class="relative">
+                            <div class="absolute text-primary -top-1 -left-7 lg:-top-3 lg:-left-3.2 font-bold z-10 text-4xl lg:text-7xl">
+                                5D
+                            </div>
+                            <h2 class="relative text-secondary text-2xl lg:text-5xl font-bold z-20">{{i18n.index?.approach}}</h2>
+                        </div>
+                    </div>
+                    <div class="relative flex justify-center mx-10 lg:mx-20 border-primary-300 lg:border-l-0">
+                        <div class="absolute lg:flex lg:flex-wrap lg:content-end lg:justify-center h-full w-full">
+                            <div
+                                class="z-10 absolute left-0 lg:left-auto top-6 lg:top-1/2 w-1 lg:w-3/4 h-5/6 lg:h-1 flex justify-center bg-primary-300">
+                            </div>
+                        </div>
+                        <div class="z-20 w-full mx-10 lg:mx-20 grid grid-cols-1 lg:grid-cols-5 lg:grid-rows-2">
+                            <div
+                                class="relative lg:col-span-1 lg:col-start-1 lg:row-span-1 lg:row-start-1 lg:row-end-2 mb-10 lg:mb-0">
+                                <section>
+                                    <div class="flex justify-center bg-primary-300 bg-opacity-50 rounded-lg mb-6 p-4">
+                                        <h2 class="text-center font-bold text-2xl text-primary">{{i18n.index?.discover}}</h2>
+                                    </div>
+                                    <div style="opacity: 1; transform: none;">
+                                        <div class="lg:pb-10 text-lg text-secondary font-montserrat">
+                                            <p>{{i18n.index?.customer}}</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="absolute top-4 -left-3.625 lg:top-auto lg:inset-x-0 lg:-bottom-10 flex justify-center">
+                                        <div
+                                            class="flex justify-center text-secondary border-4 border-primary-300 rounded-full w-10 h-10 lg:w-20 lg:h-20 bg-white">
+                                            <div class="flex flex-wrap content-center font-bold text-2xl">1</div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="relative lg:col-span-1 lg:col-start-2 lg:row-span-1 lg:row-start-2 mb-10 lg:mb-0">
+                                <section>
+                                    <div class="absolute top-4 -left-3.625 lg:inset-x-0 lg:-top-10 flex justify-center">
+                                        <div
+                                            class="flex justify-center text-secondary border-4 border-primary-300 rounded-full w-10 h-10 lg:w-20 lg:h-20 bg-white">
+                                            <div class="flex flex-wrap content-center font-bold text-2xl">2</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex justify-center bg-primary-300 bg-opacity-50 rounded-lg lg:mt-24 mb-6 p-4">
+                                        <h2 class="text-center font-bold text-2xl text-primary">{{i18n.index?.document}}</h2>
+                                    </div>
+                                    <div style="opacity: 1; transform: none;">
+                                        <div class="text-secondary text-lg font-montserrat">
+                                            <p>{{i18n.index?.requirements}}</p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="relative lg:col-span-1 lg:col-start-3 lg:row-span-1 lg:row-start-1 mb-10 lg:mb-0">
+                                <section>
+                                    <div class="flex justify-center bg-primary-300 bg-opacity-50 rounded-lg mb-6 p-4">
+                                        <h2 class="text-center font-bold text-2xl text-primary">{{i18n.index?.develop}}</h2>
+                                    </div>
+                                    <div style="opacity: 1; transform: none;">
+                                        <div class="lg:pb-10 text-lg text-secondary font-montserrat">
+                                            <p>{{i18n.index?.methodologies}}</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="absolute top-4 -left-3.625 lg:top-auto lg:inset-x-0 lg:-bottom-10 flex justify-center">
+                                        <div
+                                            class="flex justify-center text-secondary border-4 border-primary-300 rounded-full w-10 h-10 lg:w-20 lg:h-20 bg-white">
+                                            <div class="flex flex-wrap content-center font-bold text-2xl">3</div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="relative lg:col-span-1 lg:col-start-4 lg:row-span-1 lg:row-start-2 mb-10 lg:mb-0">
+                                <section>
+                                    <div class="absolute top-4 -left-3.625 lg:inset-x-0 lg:-top-10 flex justify-center">
+                                        <div
+                                            class="flex justify-center text-secondary border-4 border-primary-300 rounded-full w-10 h-10 lg:w-20 lg:h-20 bg-white">
+                                            <div class="flex flex-wrap content-center font-bold text-2xl">4</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex justify-center bg-primary-300 bg-opacity-50 rounded-lg lg:mt-24 mb-6 p-4">
+                                        <h2 class="text-center font-bold text-2xl text-primary">{{i18n.index?.deploy}}</h2>
+                                    </div>
+                                    <div style="opacity: 1; transform: none;">
+                                        <div class="text-secondary text-lg font-montserrat">
+                                            <p>{{i18n.index?.demands}}</p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="relative pb-0 lg:col-span-1 lg:col-start-5 lg:row-span-1 lg:row-start-1">
+                                <section>
+                                    <div class="flex justify-center bg-primary-300 bg-opacity-50 rounded-lg mb-6 p-4">
+                                        <h2 class="text-center font-bold text-2xl text-primary">{{i18n.index?.drive}}</h2>
+                                    </div>
+                                    <div style="opacity: 1; transform: none;">
+                                        <div class="lg:pb-10 text-lg text-secondary font-montserrat">
+                                            <p>{{i18n.index?.maintain}}</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="absolute top-4 -left-3.625 lg:top-auto lg:inset-x-0 lg:-bottom-10 flex justify-center">
+                                        <div
+                                            class="flex justify-center text-secondary border-4 border-primary-300 rounded-full w-10 h-10 lg:w-20 lg:h-20 bg-white">
+                                            <div class="flex flex-wrap content-center font-bold text-2xl">5</div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="bg-secondary cursor-default">
+                    <div class="py-10 lg:py-28 px-10 sm:px-20 md:px-20 lg:px-20 xl:px-40">
+                        <div style="opacity: 1; transform: none;">
+                            <h2 class="text-white font-bold text-3xl lg:text-5xl">{{i18n.index?.hassleFree}}</h2>
+                            <h3 class="mt-10 text-primary font-bold text-lg sm:text-xl lg:text-4xl">
+                                #{{i18n.index?.weDevelop}}</h3>
+                        </div>
+                    </div>
+                </section>
+                <section class="bg-white pt-14 lg:pt-28">
+                    <section class="px-10 lg:px-0 lg:pl-20 xl:pl-40 2xl:pl-40 cursor-default">
+                        <h2 class="uppercase pb-2 text-lg font-bold text-gray-500 text-center lg:text-left font-montserrat">{{i18n.index?.proven}}</h2>
+                        <h3 class="text-secondary text-5xl lg:text-7xl font-bold text-center lg:text-left">{{i18n.testimonials?.bestClients[0]}}</h3>
+                        <h4 class="pb-5 lg:pb-10 text-primary text-5xl lg:text-7xl font-bold text-center lg:text-left">{{i18n.testimonials?.bestClients[1]}}</h4>
+                    </section>
+                    <section
+                        class="py-2 px-10 sm:px-20 md:px-20 lg:px-20 xl:px-40 grid grid-cols-1 custom-lg:grid-cols-2 lg:grid-cols-3 grid-rows-1 lg:grid-rows-4 gap-6">
+                        <div
+                            class="bg-white text-secondary shadow-lg rounded-lg col-span-1 lg:col-span-1 row-span-1 lg:row-span-4 p-8">
+                            <article
+                                class="flex flex-col items-center lg:items-start h-full gap-4 md:flex-row lg:flex-col lg:items-start">
+                                <div>
+                                    <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH my-2 md:mr-2 h-20 w-full">
+                                        <div
+                                            style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                            <img alt="Alphacomm"
+                                                src="./images/alphacomm_logo_fed053ff71.png"
+                                                decoding="async"
+                                                style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                                                sizes="100vw"
+                                                srcset="./images/alphacomm_logo_fed053ff71.png 640w, ./images/alphacomm_logo_fed053ff71.png 750w, ./images/alphacomm_logo_fed053ff71.png 828w, ./images/alphacomm_logo_fed053ff71.png 1080w, ./images/alphacomm_logo_fed053ff71.png 1200w, ./images/alphacomm_logo_fed053ff71.png 1920w, ./images/alphacomm_logo_fed053ff71.png 2048w, ./images/alphacomm_logo_fed053ff71.png 3840w">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex flex-col items-center md:items-start lg:items-start justify-between w-full h-full md:gap-4 lg:gap-4">
+                                    <div style="opacity: 1; transform: none;">
+                                        <div class="cursor-default text-center md:text-left lg:text-left space-y-6">
+                                            <h2 class="font-bold text-2xl lg:text-3xl">Alphacomm</h2>
+                                            <p class="text-secondary text-xl font-montserrat">{{i18n.testimonials?.commerce}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex justify-center w-full lg:justify-start mt-6">
+                                        <a class="transition transition-all cursor-pointer font-workSans border-2 rounded-lg text-secondary border-secondary hover:text-white hover:border-secondary hover:bg-secondary mb-2 text-lg lg:text-sm 2xl:text-lg font-bold px-8 lg:px-2 2xl:px-8 py-4 w-full text-center lg:w-auto lg:text-left"
+                                            href="GetInTouch.html" onClick="setRouterPath('GetInTouch')">{{i18n.testimonials?.view}}</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="bg-white text-secondary shadow-lg rounded-lg col-span-1 row-span-1 lg:row-span-2 p-8">
+                            <article class="flex flex-col items-center lg:items-start h-full gap-4 md:flex-row lg:flex-row">
+                                <div>
+                                    <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH my-2 md:mr-2 h-20 w-full">
+                                        <div
+                                            style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                            <img alt="Gulf Gas &amp; Power"
+                                                src="./images/gulf_logo_3a5466b6cc.png"
+                                                decoding="async"
+                                                style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                                                sizes="100vw"
+                                                srcset="./images/gulf_logo_3a5466b6cc.png 640w, ./images/gulf_logo_3a5466b6cc.png 750w, ./images/gulf_logo_3a5466b6cc.png 828w, ./images/gulf_logo_3a5466b6cc.png 1080w, ./images/gulf_logo_3a5466b6cc.png 1200w, ./images/gulf_logo_3a5466b6cc.png 1920w, ./images/gulf_logo_3a5466b6cc.png 2048w, ./images/gulf_logo_3a5466b6cc.png 3840w">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex flex-col items-center md:items-start lg:items-start justify-between w-full h-full md:gap-4 lg:gap-4">
+                                    <div style="opacity: 1; transform: none;">
+                                        <div class="cursor-default text-center md:text-left lg:text-left space-y-6">
+                                            <h2 class="font-bold text-2xl lg:text-3xl">Gulf Gas &amp; Power</h2>
+                                            <p class="text-secondary text-xl font-montserrat">{{i18n.testimonials?.employee}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex justify-center w-full lg:justify-start mt-6">
+                                        <a class="transition transition-all cursor-pointer font-workSans border-2 rounded-lg text-secondary border-secondary hover:text-white hover:border-secondary hover:bg-secondary mb-2 text-lg lg:text-sm 2xl:text-lg font-bold px-8 lg:px-2 2xl:px-8 py-4 w-full text-center lg:w-auto lg:text-left"
+                                            href="Gulf.html" onClick="setRouterPath('Gulf')">{{i18n.testimonials?.view}}</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="bg-white text-secondary shadow-lg rounded-lg col-span-1 row-span-1 lg:row-span-2 p-8">
+                            <article class="flex flex-col items-center lg:items-start h-full gap-4 md:flex-row lg:flex-row">
+                                <div>
+                                    <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH my-2 md:mr-2 h-20 w-full">
+                                        <div
+                                            style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                            <img alt="Waive"
+                                                src="./images/waive_logo_74d79015a6.png"
+                                                decoding="async"
+                                                style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                                                sizes="100vw"
+                                                srcset="./images/waive_logo_74d79015a6.png 640w, ./images/waive_logo_74d79015a6.png 750w, ./images/waive_logo_74d79015a6.png 828w, ./images/waive_logo_74d79015a6.png 1080w, ./images/waive_logo_74d79015a6.png 1200w, ./images/waive_logo_74d79015a6.png 1920w, ./images/waive_logo_74d79015a6.png 2048w, ./images/waive_logo_74d79015a6.png 3840w">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex flex-col items-center md:items-start lg:items-start justify-between w-full h-full md:gap-4 lg:gap-4">
+                                    <div style="opacity: 1; transform: none;">
+                                        <div class="cursor-default text-center md:text-left lg:text-left space-y-6">
+                                            <h2 class="font-bold text-2xl lg:text-3xl">Waive</h2>
+                                            <p class="text-secondary text-xl font-montserrat">{{i18n.testimonials?.MVP}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex justify-center w-full lg:justify-start mt-6">
+                                        <a class="transition transition-all cursor-pointer font-workSans border-2 rounded-lg text-secondary border-secondary hover:text-white hover:border-secondary hover:bg-secondary mb-2 text-lg lg:text-sm 2xl:text-lg font-bold px-8 lg:px-2 2xl:px-8 py-4 w-full text-center lg:w-auto lg:text-left"
+                                            href="Waive.html" onClick="setRouterPath('Waive')">{{i18n.testimonials?.view}}</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div
+                            class="bg-white text-secondary shadow-lg rounded-lg col-span-1 lg:col-span-2 row-span-1 lg:row-span-2 p-8">
+                            <article class="flex flex-col items-center lg:items-start h-full gap-4 md:flex-row lg:flex-row">
+                                <div>
+                                    <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH my-2 md:mr-2 h-20 w-full">
+                                        <div
+                                            style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                            <img alt="Gradyent"
+                                                src="./images/gradyent_logo_17f78d54db.svg"
+                                                decoding="async"
+                                                style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                                                sizes="100vw"
+                                                srcset="./images/gradyent_logo_17f78d54db.svg 640w, ./images/gradyent_logo_17f78d54db.svg 750w, ./images/gradyent_logo_17f78d54db.svg 828w, ./images/gradyent_logo_17f78d54db.svg 1080w, ./images/gradyent_logo_17f78d54db.svg 1200w, ./images/gradyent_logo_17f78d54db.svg 1920w, ./images/gradyent_logo_17f78d54db.svg 2048w, ./images/gradyent_logo_17f78d54db.svg 3840w">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex flex-col items-center md:items-start lg:items-start justify-between w-full h-full md:gap-4 lg:gap-4">
+                                    <div style="opacity: 1; transform: none;">
+                                        <div class="cursor-default text-center md:text-left lg:text-left space-y-6">
+                                            <h2 class="font-bold text-2xl lg:text-3xl">Gradyent</h2>
+                                            <p class="text-secondary text-xl font-montserrat">{{i18n.testimonials?.Intelligence}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex justify-center w-full lg:justify-start mt-6">
+                                        <a class="transition transition-all cursor-pointer font-workSans border-2 rounded-lg text-secondary border-secondary hover:text-white hover:border-secondary hover:bg-secondary mb-2 text-lg lg:text-sm 2xl:text-lg font-bold px-8 lg:px-2 2xl:px-8 py-4 w-full text-center lg:w-auto lg:text-left"
+                                            href="Gradyent" onClick="setRouterPath('Gradyent')">{{i18n.testimonials?.view}}</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                </section>
+                <section class="relative cursor-default mb-10">
+                    <div class="Clients__SwiperWrapper-sc-5efi3u-1 fMEHBj flex flex-row items-center gap-10">
+                        <div class="swiper lRhwS" id="swiper-first" style="padding: 0 40px;">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="flex flex-col w-48 mx-0 py-28 z-10">
+                                        <div class="flex justify-center items-center w-48 h-48 shadow-lg rounded-lg p-4">
+                                            <div style="opacity: 1; transform: none;">
+                                                <div
+                                                    style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;">
+                                                    <div style="box-sizing: border-box; display: block; max-width: 100%;">
+                                                        <img alt="" aria-hidden="true" role="presentation"
+                                                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTk3IiBoZWlnaHQ9IjE5NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                                                            style="max-width: 100%; display: block; margin: 0px; border: none; padding: 0px;">
+                                                    </div>
+                                                    <img src="./images/Logo_alphacomm_29f4cab189.png"
+                                                        decoding="async"
+                                                        style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                                                        srcset="./images/Logo_alphacomm_29f4cab189.png 1x, ./images/Logo_alphacomm_29f4cab189.png 2x">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="flex flex-col w-48 mx-0 py-28 z-10">
+                                        <div class="flex justify-center items-center w-48 h-48 shadow-lg rounded-lg p-4">
+                                            <div style="opacity: 1; transform: none;">
+                                                <div
+                                                    style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;">
+                                                    <div style="box-sizing: border-box; display: block; max-width: 100%;"><img
+                                                            alt="" aria-hidden="true" role="presentation"
+                                                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTk3IiBoZWlnaHQ9IjE5NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                                                            style="max-width: 100%; display: block; margin: 0px; border: none; padding: 0px;">
+                                                    </div><img
+                                                        src="./images/Golden_Value_8aa56a12d9.jpg"
+                                                        decoding="async"
+                                                        style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                                                        srcset="./images/Golden_Value_8aa56a12d9.jpg 1x, ./images/Golden_Value_8aa56a12d9.jpg 2x">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="flex flex-col w-48 mx-0 py-28 z-10">
+                                        <div class="flex justify-center items-center w-48 h-48 shadow-lg rounded-lg p-4">
+                                            <div style="opacity: 1; transform: none;">
+                                                <div
+                                                    style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;">
+                                                    <div style="box-sizing: border-box; display: block; max-width: 100%;"><img
+                                                            alt="" aria-hidden="true" role="presentation"
+                                                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTk3IiBoZWlnaHQ9IjE5NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                                                            style="max-width: 100%; display: block; margin: 0px; border: none; padding: 0px;">
+                                                    </div><img
+                                                        src="./images/gradyent_logo_17f78d54db_f7b1519428.png"
+                                                        decoding="async"
+                                                        style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                                                        srcset="./images/gradyent_logo_17f78d54db_f7b1519428.png 1x, ./images/gradyent_logo_17f78d54db_f7b1519428.png 2x">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="flex flex-col w-48 mx-0 py-28 z-10">
+                                        <div class="flex justify-center items-center w-48 h-48 shadow-lg rounded-lg p-4">
+                                            <div style="opacity: 1; transform: none;">
+                                                <div
+                                                    style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;">
+                                                    <div style="box-sizing: border-box; display: block; max-width: 100%;"><img
+                                                            alt="" aria-hidden="true" role="presentation"
+                                                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTk3IiBoZWlnaHQ9IjE5NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                                                            style="max-width: 100%; display: block; margin: 0px; border: none; padding: 0px;">
+                                                    </div><img
+                                                        src="./images/gulf_logo_3a5466b6cc_b16c22a431.png"
+                                                        decoding="async"
+                                                        style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                                                        srcset="./images/gulf_logo_3a5466b6cc_b16c22a431.png 1x, ./images/gulf_logo_3a5466b6cc_b16c22a431.png 2x">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="flex flex-col w-48 mx-0 py-28 z-10">
+                                        <div class="flex justify-center items-center w-48 h-48 shadow-lg rounded-lg p-4">
+                                            <div style="opacity: 1; transform: none;">
+                                                <div
+                                                    style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;">
+                                                    <div style="box-sizing: border-box; display: block; max-width: 100%;"><img
+                                                            alt="" aria-hidden="true" role="presentation"
+                                                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTk3IiBoZWlnaHQ9IjE5NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                                                            style="max-width: 100%; display: block; margin: 0px; border: none; padding: 0px;">
+                                                    </div><img
+                                                        src="./images/springseason_logo_liggend_groot_tekengebied_11607940759logo_50a56a53d3.png"
+                                                        decoding="async"
+                                                        style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                                                        srcset="./images/springseason_logo_liggend_groot_tekengebied_11607940759logo_50a56a53d3.png 1x, ./images/springseason_logo_liggend_groot_tekengebied_11607940759logo_50a56a53d3.png 2x">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev krEjUA"></div>
+                            <div class="swiper-button-next hbkFGf"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="relative bg-primary cursor-default gxEhFd">
+                    <div class="swiper" id="swiper-second">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide pr-79">
+                                <article class="flex flex-col justify-center mx-0 lg:mx-20 xl:mx-40 py-28 px-16 z-10">
+                                    <div style="opacity: 1; transform: none;">
+                                        <div class="relative z-10 "><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                                data-icon="quote-left"
+                                                class="svg-inline--fa fa-quote-left fa-w-16 fa-5x absolute text-primary-200 -inset-y-8 -left-0 lg:-left-14 z-10 opacity-50"
+                                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path fill="currentColor"
+                                                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+                                                </path>
+                                            </svg>
+                                            <p class="text-white font-semibold text-lg lg:text-5xl z-20 mx-10 lg:mx-0">{{i18n.index?.TIS}}</p>
+                                        </div>
+                                        <div class="w-full">
+                                            <p class="mt-10 text-white text-lg lg:text-2xl  mx-10 lg:mx-0 font-montserrat">Robert Vrancken - Gradyent</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-slide pr-79">
+                                <article class="flex flex-col justify-center mx-0 lg:mx-20 xl:mx-40 py-28 px-16 z-10">
+                                    <div style="opacity: 1; transform: none;">
+                                        <div class="relative z-10 "><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                                data-icon="quote-left"
+                                                class="svg-inline--fa fa-quote-left fa-w-16 fa-5x absolute text-primary-200 -inset-y-8 -left-0 lg:-left-14 z-10 opacity-50"
+                                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path fill="currentColor"
+                                                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+                                                </path>
+                                            </svg>
+                                            <p class="text-white font-semibold text-lg lg:text-5xl z-20 mx-10 lg:mx-0">{{i18n.index?.itSolutions}}</p>
+                                        </div>
+                                        <div class="w-full">
+                                            <p class="mt-10 text-white text-lg lg:text-2xl  mx-10 lg:mx-0 font-montserrat">Robert Vrancken - Gradyent</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-slide pr-79">
+                                <article class="flex flex-col justify-center mx-0 lg:mx-20 xl:mx-40 py-28 px-16 z-10">
+                                    <div style="opacity: 1; transform: none;">
+                                        <div class="relative z-10 "><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                                data-icon="quote-left"
+                                                class="svg-inline--fa fa-quote-left fa-w-16 fa-5x absolute text-primary-200 -inset-y-8 -left-0 lg:-left-14 z-10 opacity-50"
+                                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path fill="currentColor"
+                                                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+                                                </path>
+                                            </svg>
+                                            <p class="text-white font-semibold text-lg lg:text-5xl z-20 mx-10 lg:mx-0">{{i18n.index?.customers}}</p>
+                                        </div>
+                                        <div class="w-full">
+                                            <p class="mt-10 text-white text-lg lg:text-2xl  mx-10 lg:mx-0 font-montserrat">Robert Vrancken - Gradyent</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-slide pr-79">
+                                <article class="flex flex-col justify-center mx-0 lg:mx-20 xl:mx-40 py-28 px-16 z-10">
+                                    <div style="opacity: 1; transform: none;">
+                                        <div class="relative z-10 "><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                                data-icon="quote-left"
+                                                class="svg-inline--fa fa-quote-left fa-w-16 fa-5x absolute text-primary-200 -inset-y-8 -left-0 lg:-left-14 z-10 opacity-50"
+                                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path fill="currentColor" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+                                                </path>
+                                            </svg>
+                                            <p class="text-white font-semibold text-lg lg:text-5xl z-20 mx-10 lg:mx-0">{{i18n.index?.partnership}}</p>
+                                        </div>
+                                        <div class="w-full">
+                                            <p class="mt-10 text-white text-lg lg:text-2xl  mx-10 lg:mx-0 font-montserrat">Robert Vrancken - Gradyent</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev fFCWAH"></div>
+                        <div class="swiper-button-next gDVIkw"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </section>
+                <section class="relative mb-20 lg:mb-0 2xl:mb-52 lg:bg-top bg-none lg:bg-no-repeat lg:bg-cover w-full">
+                    <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH h-cultureH hidden 2xl:block">
+                        <div
+                            style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                            <img alt="Our culture"
+                                src="./images/culture_56ebcf34cb.jpg"
+                                decoding="async"
+                                style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                                sizes="100vw"
+                                srcset="./images/culture_56ebcf34cb.jpg 640w, ./images/culture_56ebcf34cb.jpg 750w, ./images/culture_56ebcf34cb.jpg 828w, ./images/culture_56ebcf34cb.jpg 1080w, ./images/culture_56ebcf34cb.jpg 1200w, ./images/culture_56ebcf34cb.jpg 1920w, ./images/culture_56ebcf34cb.jpg 2048w, ./images/culture_56ebcf34cb.jpg 3840w">
+                        </div>
+                    </div>
+                    <div class="relative 2xl:absolute lg:top-1/2 xl:top-2/3">
+                        <div class="flex flex-col md:flex-col lg:flex-row items-center justify-between pt-10 px-10 sm:px-20 md:px-20 lg:px-20 xl:px-40">
+                            <p class="Culture__StyledText-sc-1isrif1-0 liqJgZ text-secondary text-5xl font-bold cursor-default 2xl:text-white lg:text-6xl">{{i18n.index?.ourCulture}}</p>
+                            <a class="transition transition-all cursor-pointer font-workSans border-2 rounded-lg text-white bg-primary border-primary hover:bg-white hover:border-primary hover:text-primary mt-6 md:mt-6 lg:mt-0 py-4 px-10 w-full md:w-full lg:w-auto text-center font-bold text-xl hover:bg-secondary hover:border-secondary"
+                                href="JoinTeams.html" onClick="setRouterPath('JoinTeams')">{{i18n.common?.joinTeam}}</a>
+                        </div>
+                        <section
+                            class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-4 gap-6 px-10 sm:px-20 md:px-20 lg:px-20 xl:px-40 pt-10 cursor-default">
+                            <article class="bg-white shadow-lg rounded-lg p-6">
+                                <h2 class="font-bold text-primary text-3xl pb-6 text-center">{{i18n.teams?.direct[0]}}</h2>
+                                <div style="opacity: 1; transform: none;">
+                                    <p class="text-secondary text-lg text-justify font-montserrat">
+                                        {{i18n.teams?.direct[1]}}
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="bg-white shadow-lg rounded-lg p-6">
+                                <h2 class="font-bold text-primary text-3xl pb-6 text-center">{{i18n.teams?.skilled[0]}}</h2>
+                                <div style="opacity: 1; transform: none;">
+                                    <p class="text-secondary text-lg text-justify font-montserrat">
+                                        {{i18n.teams?.skilled[1]}}
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="bg-white shadow-lg rounded-lg p-6">
+                                <h2 class="font-bold text-primary text-3xl pb-6 text-center">{{i18n.teams?.driven[0]}}</h2>
+                                <div style="opacity: 1; transform: none;">
+                                    <p class="text-secondary text-lg text-justify font-montserrat">{{i18n.teams?.driven[1]}}</p>
+                                </div>
+                            </article>
+                            <article class="bg-white shadow-lg rounded-lg p-6">
+                                <h2 class="font-bold text-primary text-3xl pb-6 text-center">{{i18n.teams?.trustworthy[0]}}</h2>
+                                <div style="opacity: 1; transform: none;">
+                                    <p class="text-secondary text-lg text-justify font-montserrat">{{i18n.teams?.trustworthy[1]}}
+                                    </p>
+                                </div>
+                            </article>
+                        </section>
+                    </div>
+                </section>
+                <section class="lg:pt-20 2xl:pt-40 px-10 sm:px-20 md:px-20 lg:px-20 xl:px-40">
+                    <div class="flex flex-col lg:flex-row lg:items-center space-y-10 lg:space-y-0 space-x-0 lg:space-x-20">
+                        <div class="lg:w-1/2">
+                            <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH">
+                                <div
+                                    style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                    <img alt="Latest Positions"
+                                        src="./images/latest_7772aab728.jpg"
+                                        decoding="async"
+                                        style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                                        sizes="100vw"
+                                        srcset="./images/latest_7772aab728.jpg 640w, ./images/latest_7772aab728.jpg 750w, ./images/latest_7772aab728.jpg 828w, ./images/latest_7772aab728.jpg 1080w, ./images/latest_7772aab728.jpg 1200w, ./images/latest_7772aab728.jpg 1920w, ./images/latest_7772aab728.jpg 2048w, ./images/latest_7772aab728.jpg 3840w">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/2">
+                            <section class="cursor-default">
+                                <h2 class="uppercase pb-2 text-lg font-bold text-gray-500 text-center lg:text-left font-montserrat">{{i18n.joinUs?.position}}</h2>
+                                <h3 class="text-secondary text-5xl lg:text-7xl font-bold text-center lg:text-left">
+                                    {{i18n.index?.checkJobs[0]}}
+                                </h3>
+                                <h4 class="pb-5 lg:pb-10 text-primary text-5xl lg:text-7xl font-bold text-center lg:text-left">
+                                    {{i18n.index?.checkJobs[1]}}
+                                </h4>
+                            </section>
+                            <div style="opacity: 1; transform: none;">
+                                <p class="text-secondary text-xl lg:w-3/5 mb-12 cursor-default text-center lg:text-left font-montserrat">{{i18n.index?.applyOnline}}</p>
+                            </div>
+                            <div class="flex justify-center flex-col lg:flex-row lg:justify-start my-6">
+                                <a class="transition transition-all cursor-pointer font-workSans border-2 rounded-lg text-white bg-primary border-primary hover:bg-white hover:border-primary hover:text-primary lg:mr-3 py-5 lg:w-52 text-center font-bold text-xl"
+                                    href="JoinTeams.html" onClick="setRouterPath('JoinTeams')">{{i18n.index?.viewPos}}</a>
+                                <a class="transition transition-all cursor-pointer font-workSans border-2 rounded-lg text-secondary border-secondary hover:text-white hover:border-secondary hover:bg-secondary mt-4 lg:mt-0 lg:mr-3 py-5 lg:w-52 text-center font-bold text-xl"
+                                    href="Teams.html" onClick="setRouterPath('Teams')">{{i18n.teams?.meetTheTeam}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="bg-white grid justify-items-center my-20 lg:my-40 px-10 sm:px-20 md:px-20 lg:px-20 xl:px-40">
+                    <div class="w-3/4 lg:w-3/5 cursor-default">
+                        <div style="opacity: 1; transform: none;">
+                            <h2 class="text-secondary text-3xl lg:text-6xl font-bold text-center">{{i18n.common?.touchWithUs}}</h2>
+                        </div>
+                    </div>
+                    <a class="transition transition-all cursor-pointer font-workSans border-2 rounded-lg text-white bg-primary border-primary hover:bg-white hover:border-primary hover:text-primary mt-10 py-5 font-bold text-xl w-full lg:w-52 text-center"
+                        href="GetInTouch.html" onClick="setRouterPath('GetInTouch')">{{i18n.common?.getInTouch}}</a>
+                </section>
+            </main>
+            <footer id="footer" class="flex justify-center text-white bg-secondary px-20 pt-10"></footer>
+        </div>
+    </div>
+    <script src="./js/vue.js"></script>
+    <!-- <script type="module" src="./js/store.js" async></script> -->
+    <!-- <script type="text/javascript" src="./js/index.js" async></script> -->
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script lang="javascript">
+        const indexData = new Vue({
+            el: '#__next',
+            data: {
+                i18n: {},
+            },
+            created() {
+                if (!sessionStorage.getItem('lang')) {
+                    sessionStorage.setItem('lang', 'CN')
+                }
+                fetch(`./js/${sessionStorage.getItem('lang') == 'CN' ? 'Chinese' : 'English'}.json`).then(response => response.json()).then(json => {
+                    this.i18n = json
+                }).catch(error => console.log(error));
+            },
+        });
+        window.myFunction = function(json) {
+            indexData.i18n = json
+        };
+
+        $("#header").load(`./layout/header.html`);
+        $("#footer").load(`./layout/footer.html`);
+        var mySwiper = new Swiper('#swiper-first', {
+            loop: true,
+            slidesPerView: 6,
+            loopAdditionalSlides: 1,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        })
+        var mySwiper1 = new Swiper('#swiper-second', {
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        })
+        function setRouterPath(router) {
+            sessionStorage.setItem('lastname', router)
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

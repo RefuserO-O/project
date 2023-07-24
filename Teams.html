@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>团队介绍</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+        .hskiDf {
+            height: 50vh;
+            min-height: 50vh;
+            background-image: url(./images/Meet_the_Team_0cce546d6a.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .kiXtYP {
+            height: calc(100vh - 7.875rem);
+        }
+
+        .jFJvEi svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .jIBIFH>div {
+            height: 100%;
+            position: unset !important;
+        }
+
+        .jIBIFH>div>img {
+            border-radius: 0.5rem;
+            width: auto !important;
+            position: relative !important;
+            height: auto !important;
+        }
+
+        .img-cus {
+            position: absolute;
+            inset: 0px;
+            box-sizing: border-box;
+            padding: 0px;
+            border: none;
+            margin: auto;
+            display: block;
+            width: 0px;
+            height: 0px;
+            min-width: 100%;
+            max-width: 100%;
+            min-height: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="__next">
+        <div class="flex flex-col min-h-full">
+            <div id="header" class="Header__Blurred-sc-b7lhnb-1 dVqcpB sticky top-0 z-50"></div>
+            <main class="flex flex-1 flex-col">
+                <section class="w-full relative">
+                    <div
+                        class="TitleWithBackground__StyledTitle-sc-12eui0c-0 hskiDf flex flex-col justify-center items-center lg:items-start lg:justify-end w-full">
+                        <h1 class="TitleWithBackground__StyledText-sc-12eui0c-1 jsXVGe text-center lg:text-left text-white text-5xl lg:text-8xl font-bold cursor-default lg:p-20 xl:pl-40">
+                            {{i18n.teams?.meetTheTeam}}
+                        </h1>
+                    </div>
+                </section>
+                <section class="lg:pl-20 xl:pl-40 mt-20 cursor-default">
+                    <h2 class="uppercase pb-2 text-lg font-bold text-gray-500 text-center lg:text-left font-montserrat">
+                        {{i18n.teams?.beliefs}}
+                    </h2>
+                    <h3 class="text-secondary text-5xl lg:text-7xl font-bold text-center lg:text-left">
+                        {{i18n.teams?.culture[0]}}
+                    </h3>
+                    <h4 class="pb-5 lg:pb-10 text-primary text-5xl lg:text-7xl font-bold text-center lg:text-left">
+                        {{i18n.teams?.culture[1]}}
+                    </h4>
+                </section>
+                <div class="pb-20">
+                    <section
+                        class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-4 gap-6 px-10 sm:px-20 md:px-20 lg:px-20 xl:px-40 pt-10 cursor-default">
+                        <article class="bg-white shadow-lg rounded-lg p-6">
+                            <h2 class="font-bold text-primary text-3xl pb-6 text-center">{{i18n.teams?.direct[0]}}</h2>
+                            <div style="opacity: 1; transform: none;">
+                                <p class="text-secondary text-lg text-justify font-montserrat">
+                                    {{i18n.teams?.direct[1]}}
+                                </p>
+                            </div>
+                        </article>
+                        <article class="bg-white shadow-lg rounded-lg p-6">
+                            <h2 class="font-bold text-primary text-3xl pb-6 text-center">{{i18n.teams?.skilled[0]}}</h2>
+                            <div style="opacity: 1; transform: none;">
+                                <p class="text-secondary text-lg text-justify font-montserrat">
+                                    {{i18n.teams?.skilled[1]}}
+                                </p>
+                            </div>
+                        </article>
+                        <article class="bg-white shadow-lg rounded-lg p-6">
+                            <h2 class="font-bold text-primary text-3xl pb-6 text-center">{{i18n.teams?.driven[0]}}</h2>
+                            <div style="opacity: 1; transform: none;">
+                                <p class="text-secondary text-lg text-justify font-montserrat">
+                                    {{i18n.teams?.driven[1]}}
+                                </p>
+                            </div>
+                        </article>
+                        <article class="bg-white shadow-lg rounded-lg p-6">
+                            <h2 class="font-bold text-primary text-3xl pb-6 text-center">{{i18n.teams?.trustworthy[0]}}</h2>
+                            <div style="opacity: 1; transform: none;">
+                                <p class="text-secondary text-lg text-justify font-montserrat">
+                                    {{i18n.teams?.trustworthy[1]}}
+                                </p>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+                <section class="lg:pl-20 xl:pl-40 cursor-default">
+                    <h2 class="uppercase pb-2 text-lg font-bold text-gray-500 text-center lg:text-left font-montserrat">
+                        {{i18n.teams?.moreAbout}}
+                    </h2>
+                    <h3 class="text-secondary text-5xl lg:text-7xl font-bold text-center lg:text-left">{{i18n.teams?.ourTeam[0]}}</h3>
+                    <h4 class="pb-5 lg:pb-10 text-primary text-5xl lg:text-7xl font-bold text-center lg:text-left">{{i18n.teams?.ourTeam[1]}}</h4>
+                </section>
+                <section class="w-full flex justify-center">
+                    <div class="px-10 sm:px-20 md:px-20 lg:px-20 xl:px-40 py-12 pb-10">
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 w-full gap-6">
+                            <article class="w-full bg-white rounded-lg shadow-lg cursor-default">
+                                <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH w-full rounded-lg h-auto">
+                                    <div
+                                        style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                        <img alt="Vivien Kristán" src="./images/small_vivien_kristan_89b28b9cb4.png"
+                                            decoding="async" class="img-cus">
+                                    </div>
+                                </div>
+                                <div class="pb-6">
+                                    <div style="opacity: 1; transform: none;">
+                                        <h2 class="ml-6 text-3xl text-left text-primary-600 font-bold mt-6">Vivien Kristán</h2>
+                                        <h3 class="ml-6 text-xl text-left font-bold text-secondary mb-6">{{i18n.teams?.hr}}</h3>
+                                        <p class="mx-6 mb-10 font-montserrat">
+                                            {{i18n.teams?.Vivien}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="w-full bg-white rounded-lg shadow-lg cursor-default">
+                                <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH w-full rounded-lg h-auto">
+                                    <div
+                                        style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                        <img alt="Bertalan Kis" src="./images/small_bertalan_kis_e743294e82.png"
+                                            decoding="async" class="img-cus">
+                                    </div>
+                                </div>
+                                <div class="pb-6">
+                                    <div style="opacity: 1; transform: none;">
+                                        <h2 class="ml-6 text-3xl text-left text-primary-600 font-bold mt-6">Bertalan Kis</h2>
+                                        <h3 class="ml-6 text-xl text-left font-bold text-secondary mb-6">
+                                            {{i18n.teams?.backend}}
+                                        </h3>
+                                        <p class="mx-6 mb-10 font-montserrat">
+                                            {{i18n.teams?.Bertalan}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="w-full bg-white rounded-lg shadow-lg cursor-default">
+                                <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH w-full rounded-lg h-auto">
+                                    <div
+                                        style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                        <img alt="Ádám Soltész" src="./images/small_adam_soltesz_3b6ed7f75e.png"
+                                            decoding="async" class="img-cus">
+                                    </div>
+                                </div>
+                                <div class="pb-6">
+                                    <div style="opacity: 1; transform: none;">
+                                        <h2 class="ml-6 text-3xl text-left text-primary-600 font-bold mt-6">Ádám Soltész
+                                        </h2>
+                                        <h3 class="ml-6 text-xl text-left font-bold text-secondary mb-6">
+                                            {{i18n.teams?.backend}}
+                                        </h3>
+                                        <p class="mx-6 mb-10 font-montserrat">
+                                            {{i18n.teams?.Adam}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="w-full bg-white rounded-lg shadow-lg cursor-default">
+                                <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH w-full rounded-lg h-auto">
+                                    <div
+                                        style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                        <img alt="Krisztián Zágonyi"
+                                            src="./images/small_krisztian_zagonyi_31ab5d7d82.png" decoding="async"
+                                            class="img-cus">
+                                    </div>
+                                </div>
+                                <div class="pb-6">
+                                    <div style="opacity: 1; transform: none;">
+                                        <h2 class="ml-6 text-3xl text-left text-primary-600 font-bold mt-6">Krisztián
+                                            Zágonyi</h2>
+                                        <h3 class="ml-6 text-xl text-left font-bold text-secondary mb-6">{{i18n.teams?.QA}}</h3>
+                                        <p class="mx-6 mb-10 font-montserrat">
+                                            {{i18n.teams?.Krisztian}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="w-full bg-white rounded-lg shadow-lg cursor-default">
+                                <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH w-full rounded-lg h-auto">
+                                    <div
+                                        style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                        <img alt="Meindert Prins" src="./images/small_Meindert_9693eaee00.png"
+                                            decoding="async" class="img-cus">
+                                    </div>
+                                </div>
+                                <div class="pb-6">
+                                    <div style="opacity: 1; transform: none;">
+                                        <h2 class="ml-6 text-3xl text-left text-primary-600 font-bold mt-6">Meindert
+                                            Prins</h2>
+                                        <h3 class="ml-6 text-xl text-left font-bold text-secondary mb-6">{{i18n.teams?.manager}}</h3>
+                                        <p class="mx-6 mb-10 font-montserrat">
+                                            {{i18n.teams?.Meindert}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="w-full bg-white rounded-lg shadow-lg cursor-default">
+                                <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH w-full rounded-lg h-auto">
+                                    <div
+                                        style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                        <img alt="Quincy Verkolf" src="./images/small_Quincy_ed046e1ae5.png"
+                                            decoding="async" class="img-cus">
+                                    </div>
+                                </div>
+                                <div class="pb-6">
+                                    <div style="opacity: 1; transform: none;">
+                                        <h2 class="ml-6 text-3xl text-left text-primary-600 font-bold mt-6">Quincy
+                                            Verkolf</h2>
+                                        <h3 class="ml-6 text-xl text-left font-bold text-secondary mb-6">{{i18n.teams?.CEO}}</h3>
+                                        <p class="mx-6 mb-10 font-montserrat">
+                                            {{i18n.teams?.Verkolf}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="w-full bg-white rounded-lg shadow-lg cursor-default">
+                                <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH w-full rounded-lg h-auto">
+                                    <div
+                                        style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                        <img alt="Gábor Harsányi" src="./images/small_G_Dog_474d72e7d0.png"
+                                            decoding="async" class="img-cus">
+                                    </div>
+                                </div>
+                                <div class="pb-6">
+                                    <div style="opacity: 1; transform: none;">
+                                        <h2 class="ml-6 text-3xl text-left text-primary-600 font-bold mt-6">Gábor
+                                            Harsányi</h2>
+                                        <h3 class="ml-6 text-xl text-left font-bold text-secondary mb-6">
+                                            {{i18n.teams?.frontend}}
+                                        </h3>
+                                        <p class="mx-6 mb-10 font-montserrat">
+                                            {{i18n.teams?.Harsanyi}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="w-full bg-white rounded-lg shadow-lg cursor-default">
+                                <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH w-full rounded-lg h-auto">
+                                    <div
+                                        style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                        <img alt="Mihály Szatmári" src="./images/small_mihaly_szatmari_5151104ed0.png"
+                                            decoding="async" class="img-cus">
+                                    </div>
+                                </div>
+                                <div class="pb-6">
+                                    <div style="opacity: 1; transform: none;">
+                                        <h2 class="ml-6 text-3xl text-left text-primary-600 font-bold mt-6">Mihály
+                                            Szatmári</h2>
+                                        <h3 class="ml-6 text-xl text-left font-bold text-secondary mb-6">
+                                            {{i18n.teams?.frontend}}
+                                        </h3>
+                                        <p class="mx-6 mb-10 font-montserrat">
+                                            {{i18n.teams?.Szatmari}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="w-full bg-white rounded-lg shadow-lg cursor-default">
+                                <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH w-full rounded-lg h-auto">
+                                    <div
+                                        style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                        <img alt="Péter Takács" src="./images/small_peter_takacs_8be9c5c042.png"
+                                            decoding="async" class="img-cus">
+                                    </div>
+                                </div>
+                                <div class="pb-6">
+                                    <div style="opacity: 1; transform: none;">
+                                        <h2 class="ml-6 text-3xl text-left text-primary-600 font-bold mt-6">Péter Takács
+                                        </h2>
+                                        <h3 class="ml-6 text-xl text-left font-bold text-secondary mb-6">
+                                            {{i18n.teams?.frontend}}
+                                        </h3>
+                                        <p class="mx-6 mb-10 font-montserrat">{{i18n.teams?.Takacs}}</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="w-full bg-white rounded-lg shadow-lg cursor-default">
+                                <div class="CustomImage__ImageWrapper-sc-ij29c8-0 jIBIFH w-full rounded-lg h-auto">
+                                    <div
+                                        style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
+                                        <img alt="Zoltán Oláh" src="./images/small_Zoli_7f428e966e.jpg" decoding="async"
+                                            class="img-cus">
+                                    </div>
+                                </div>
+                                <div class="pb-6">
+                                    <div style="opacity: 1; transform: none;">
+                                        <h2 class="ml-6 text-3xl text-left text-primary-600 font-bold mt-6">Zoltán Oláh
+                                        </h2>
+                                        <h3 class="ml-6 text-xl text-left font-bold text-secondary mb-6">
+                                            {{i18n.teams?.frontend}}
+                                        </h3>
+                                        <p class="mx-6 mb-10 font-montserrat">
+                                            {{i18n.teams?.Olah}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="bg-white grid justify-items-center my-20 lg:my-40 px-10 sm:px-20 md:px-20 lg:px-20 xl:px-40">
+                    <div class="w-3/4 lg:w-3/5 cursor-default">
+                        <div style="opacity: 1; transform: none;">
+                            <h2 class="text-secondary text-3xl lg:text-6xl font-bold text-center">
+                                {{i18n.teams?.challenging}}
+                            </h2>
+                        </div>
+                    </div>
+                    <a class="transition transition-all cursor-pointer font-workSans border-2 rounded-lg text-white bg-primary border-primary hover:bg-white hover:border-primary hover:text-primary mt-10 py-5 font-bold text-xl w-full lg:w-52 text-center"
+                        href="JoinTeams.html" onClick="setRouterPath('JoinTeams')">{{i18n.common?.joinTeam}}</a>
+                </section>
+
+            </main>
+            <footer id="footer" class="flex justify-center text-white bg-secondary px-20 pt-10"></footer>
+        </div>
+    </div>
+    <script src="./js/vue.js"></script>
+    <script src="../js/jquery-3.7.0.min.js"></script>
+    <script lang="javascript">
+        const teams = new Vue({
+            el: '#__next',
+            data: {
+                i18n: {},
+            },
+            created() {
+                fetch(`./js/${sessionStorage.getItem('lang') == 'CN' ? 'Chinese' : 'English'}.json`).then(response => response.json()).then(json => {
+                    this.i18n = json
+                }).catch(error => console.log(error));
+            },
+        });
+        window.myFunction = function (json) {
+            teams.i18n = json
+        };
+        $("#header").load(`./layout/header.html`);
+        $("#footer").load(`./layout/footer.html`);
+        function setRouterPath(router) {
+            sessionStorage.setItem('lastname', router)
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
